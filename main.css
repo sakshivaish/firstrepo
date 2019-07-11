@@ -1,0 +1,119 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+html, body {
+	font-size: 16px !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.header-class {
+	background-color: #008e9e;
+	width: 100%;
+	height: 75px;
+	min-height: 75px;
+	z-index: 99;
+	line-height: 74px;
+	position: fixed;
+
+}
+
+.header-logo{
+	margin-top: 20px;
+}
+.header-logo img {
+	height: 50px;
+}
+.header-class li{
+	line-height: 74px;
+	
+}
+.header-class ul li a{
+	color: #ffff;
+	margin-left: -5px;
+    padding: 30px 25px;
+	font-size: 1.25rem;
+	transition: 300ms linear;
+
+}
+.header-class li:last-child a{
+	color: #fff16d;
+	font-weight: 700;
+}
+.image-section{
+	min-height: 500px;
+	position: relative;
+	width: 100%;
+	padding: 90px 0;
+	
+}
+
+.all-service-section{
+	background-color: #032e46;
+	border-top: 5px solid #edbd39;
+}
+.service-card{
+	position: relative;
+	padding: 30px;
+	border-right: 1px dashed #FFFFFF;
+}
+.service-card .service-content{
+	width: 100%;
+	height: 77px;
+	display: table;
+}
+.service-card h3 span{
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+.service-card h3{
+	color: #FFFFFF;
+	line-height: 1.7rem;
+	font-size: 1.25rem;
+}
+.no-border{
+	border-right: none !important;
+}
+.about-section{
+	padding: 60px 0 15px;
+}
+.sak h1{
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	color: #032e46;
+	padding-bottom: 50px;
+}
+.sak{
+	display: block;
+}
+.about-section p{
+	text-align: center;
+	font-size: 1rem;
+	width: 83%;
+	margin: 0px auto;
+
+}
+strong{
+	font-weight: bold;
+}
+.footer-class{
+	padding: 40px 0px;
+	background-color: #032e46;
+	border-top: 5px solid #edbd39;
+	color: #ABABAB;
+
+}
+.footer-class ul li a{
+	color: #ABABAB;
+	transition: 300ms linear;
+	padding: 2px 0;
+	font-size: 15px;
+}
+.footer-class h3{
+	padding-bottom: 30px;
+	color: #ABABAB;
+	font-size: 1rem;
+	
+}
